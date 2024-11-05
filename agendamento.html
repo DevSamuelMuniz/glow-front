@@ -127,10 +127,7 @@ function agendarServico(event) {
         limparFormulario(); // Limpa o formulário
         carregarAgendamentos(); // Atualiza a lista de agendamentos
     })
-    .catch(error => {
-        console.error("Erro ao enviar o formulário:", error);
-        alert("Erro ao enviar o agendamento. Tente novamente.");
-    });
+  
 }
 
 function limparFormulario() {
