@@ -123,7 +123,6 @@ function agendarServico(event) {
     })
     .then(data => {
         console.log("Formulário enviado com sucesso:", data);
-        alert("Agendamento realizado com sucesso!");
         limparFormulario(); // Limpa o formulário
         carregarAgendamentos(); // Atualiza a lista de agendamentos
     })
